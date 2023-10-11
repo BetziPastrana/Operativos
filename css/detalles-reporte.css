@@ -1,0 +1,236 @@
+.contenedor{
+    position: absolute;
+    height: 100%;
+    background: #FFF;
+}
+.sidebar{
+    position: absolute;
+    background: #7D7C7C;
+    height: 296%;
+    margin-left: -1em;
+    left: 0;
+    padding-top: 50px;
+}
+.document{
+    height: 1350px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 218px;
+    top: 80px;
+}
+.cabezera{
+    background: #7D7C7C;
+    height: 35px;
+    border-radius: 40px;
+    top: 15px;
+}
+.tablero{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.Reporte{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.detalles{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.exportar{
+    position: relative;
+    top: 50px;
+    left: 730px;
+}
+.icono-pdf{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    left: 180px;
+    top: -30px;
+}
+.icono-excel{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    left: 150px;
+    top: -30px;
+}
+.label-exportar-pdf{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+.label-exportar-excel{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+.documento{
+    height: 1130px;
+    background: #FFF;
+    top: 50px;
+    position: relative;
+}
+.logo-canal{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 850px;
+    top: -155px;
+}
+.filaroja{
+    height: 40px;
+    background: #980504;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+}
+.Text{
+    top: 7px;
+    position: relative;
+}
+.casilla-gris{
+    height: 50px;
+    background: #D9D9D9;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+.text-casilla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    top: 7px;
+    position: relative;
+}
+.casilla-blanca{
+    height: 50px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+#filagris{
+    height: 40px;
+    background: #3B3838;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+}
+#descrip{
+    text-align: center;
+}
+#descripcion{
+    height: 100px;
+}
+.rayaroja{
+    height: 5px;
+    background: #980504;
+    position: absolute;
+    left: 218px;
+    top: 1465px;
+}
+.evidencias{
+    height: 500px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 218px;
+    top: 1470px;
+}
+
+.label-brigada{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.raya{
+    height: 5px;
+    background: #7D7C7C;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+html,body{
+    overflow-x: hidden;
+    
+  }
+  .documento1{
+    height: 1180px;
+    background: #FFF;
+    top: 50px;
+    position: relative;
+}
+.document1{
+    height: 1370px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 218px;
+    top: 80px;
+}
+.imagen{
+    width: 182px;
+    height: 150px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    position: relative;
+    float: left;
+}
+.conten-img{
+    display: none;
+}
+.logo-img{
+    width: 160px;
+    height: 150px;
+    top: 1px;
+    left: -2px;
+    position: relative;
+    cursor: pointer;
+}

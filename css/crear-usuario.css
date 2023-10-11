@@ -1,0 +1,536 @@
+.contenedor{
+    position: absolute;
+    height: 100%;
+    background: #FFF;
+}
+
+.sidebar{
+    position: absolute;
+    background: #7D7C7C;
+    height: 130%;
+    margin-left: -1em;
+    left: 0;
+    padding-top: 50px;
+}
+.sidebar-usuario{
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    margin-left: 0.5em;
+}
+.icono-user{
+    height: 50px;
+    position: relative;
+    list-style: none;
+    margin-left: -1.5em;
+    top: -45px;
+    float: left;
+}
+.label-usuario-nav{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    position: relative;
+    left: -20px;
+    top: 3px;
+    font-weight: 500;
+}
+#label-user{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    top: -45px;
+    left: 50px;
+    
+}
+#label-tipo{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #980504;
+    top: -5px;
+    left: 50px;
+    
+}
+ul{
+    height: 70px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    list-style: none;
+    margin-left: 0.5em;
+}
+.primera-lista{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 200px;
+    margin-left: 0.5em;
+}
+.segunda-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.tercera-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.label-tablero{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-report{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-puntos{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-jefe{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-web{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+#sidebar .label-menu:hover{
+    background: #444;
+    border-left: 5px solid #eee;
+}
+a.link-menu{
+    color: #FFF;
+}
+a.link-menu:hover{
+    text-decoration:none;
+}
+.icono-tablero{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -70px;
+    top: 10px;
+    cursor: pointer;
+}
+.icono-report{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -120px;
+    top: 70px;
+    cursor: pointer;
+}
+.icono-puntos{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    left: -10px;
+    top: 95px;
+    cursor: pointer;
+}
+.icono-jefe{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+.icono-userweb{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+.bloques{
+    position: absolute;
+    background: #FFF;
+    right: 0;
+    height: 200px;
+    margin-right: 0.5em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bloque-usuarios{
+    background: #08267B;
+    height: 100px;
+    position: relative;
+    left: -110px; 
+    top: -20px;
+    box-shadow: 10px 10px 3px #c6cacb;
+    
+}
+.bloque-reportes{
+    background: #556080;
+    height: 100px;
+    position: relative;
+    left: 70px;
+    top: -20px;
+    box-shadow: 10px 10px 3px #c6cacb;
+}
+.icono-usuario{
+    position: relative;
+    height: 70px;
+    left: -20px;
+    top: 10px;
+    
+}
+.icono-reportes{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    left: -20px;
+    top: 16px;
+    
+}
+
+
+/* PAGINA CREAR Usuario */
+
+.formulario{
+    height: 700px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 215px;
+    top: 100px;
+}
+.cabezera{
+    background: #7D7C7C;
+    height: 35px;
+    border-radius: 40px;
+    top: 15px;
+}
+.tablero{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.Reporte{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.raya{
+    height: 5px;
+    background: #7D7C7C;
+}
+.label-brigada{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+}
+
+#guardar-usuario{
+    background-color: #980504;
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}
+.rojo{
+    background: #980504;
+    height: 5px;
+    right: 0;
+    margin-right: 0.3em;
+    position: absolute;
+    top: 100px;
+}
+.registro-form{
+    height: 695px;
+    background: #F8F8F8;
+    position: absolute;
+    right: 0;
+    margin-right: 0.3em;
+    top: 105px;
+}
+.input-derecha{
+    height: 50px;
+    
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+}
+
+.icono-calendario{
+    width: 50px;
+    height: 50px;
+    background: #980504;
+    top: -402px;
+    left: 330px;
+    position: relative;
+    
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.calendario{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+}
+.icono-telefono{
+    width: 30px;
+    height: 50px;
+    background: #E5E5E5 ; /*color de elementos bloqueados*/
+    top: -226px;
+    position: relative;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+}
+
+.telefono{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+
+.configuracion li a{
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
+.configuracion{
+    display: none;
+    position: absolute;
+    background-color: #556080;
+    width: 200px;
+}
+
+.navbar .icono-config:hover .configuracion{
+    display: block;
+}
+.icono-calendario2{
+    width: 50px;
+    height: 50px;
+    background: #980504;
+    top: -402px;
+    left: 500px;
+    position: relative;
+    
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.icono-calendario3{
+    width: 50px;
+    height: 50px;
+    background: #980504;
+    top: -490px;
+    left: 495px;
+    position: relative;
+    
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.icono-calendario4{
+    width: 50px;
+    height: 50px;
+    background: #980504;
+    top: -490px;
+    left: 330px;
+    position: relative;
+    
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.calendario2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+}
+#guardar-jefe{
+    background-color: #980504;
+    position: relative;
+    top: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}
+.combo-brigada{
+    padding: 10px;
+    height: 50px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+   /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); para que betzaida sepa como hacer una sombra :v*/
+    
+}
+
+.registro-cause{
+    height: 800px;
+    background: #7D7C7C;
+    position: absolute;
+    right: 0;
+    margin-right: 0.3em;
+    top: 100px;
+}
+
+.actividad2{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 23px;
+    font-weight: 800;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+
+.raya2{
+    height: 5px;
+    background: #08267B;
+}
+
+.imgcanal{
+    height: 250px;
+}
+
+.descripcion{
+    height: 80px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+}
+
+.formulario2{
+    height: 800px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 215px;
+    top: 100px;
+}
+
+.icono-user-registro{
+    height: 200px;
+    position: relative;
+    top: -350px;
+    left: 450px;
+}
+.icono-jefe-registro{
+    height: 250px;
+    position: relative;
+    top: -350px;
+    left: 330px;
+}
+#guardar-jefe2{
+    background-color: #980504;
+    position: relative;
+    top: -110px;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}

@@ -1,0 +1,555 @@
+.contenedor{
+    position: absolute;
+    height: 100%;
+    background: #FFF;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    height: 60px;
+    background: #980504;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+.navbar-brand{
+    color: #CFD4E2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.icono-navbar{
+    width: 60px;
+    height: 55px;
+    left: 3px;
+    position: relative;
+    top: -4px;
+}
+.icono-config{
+    width: 30px;
+    height: 30px;
+}
+.icono-config:hover{
+    cursor: pointer;
+}
+.label-usuario-nav{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    position: relative;
+    left: -20px;
+    top: 3px;
+    font-weight: 500;
+}
+
+/*SIDEBAR */
+
+.sidebar{
+    position: absolute;
+    background: #7D7C7C;
+    height: 180%;
+    margin-left: -1em;
+    left: 0;
+    padding-top: 50px;
+}
+.sidebar-usuario{
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    margin-left: 0.5em;
+}
+.icono-user{
+    height: 50px;
+    position: relative;
+    list-style: none;
+    margin-left: -1.5em;
+    top: -45px;
+    float: left;
+}
+
+#label-user{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    top: -45px;
+    left: 50px;
+    
+}
+#label-tipo{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #980504;
+    top: -5px;
+    left: 50px;
+    
+}
+ul{
+    height: 70px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    list-style: none;
+    margin-left: 0.5em;
+}
+.primera-lista{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 200px;
+    margin-left: 0.5em;
+}
+.segunda-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.tercera-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.label-tablero{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-report{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-puntos{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-jefe{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-web{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+#sidebar .label-menu:hover{
+    background: #444;
+    border-left: 5px solid #eee;
+}
+a.link-menu{
+    color: #FFF;
+}
+a.link-menu:hover{
+    text-decoration:none;
+}
+.icono-tablero{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -70px;
+    top: 10px;
+    cursor: pointer;
+}
+.icono-report{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -120px;
+    top: 70px;
+    cursor: pointer;
+}
+.icono-puntos{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    left: -10px;
+    top: 95px;
+    cursor: pointer;
+}
+.icono-jefe{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+.icono-userweb{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+
+/*Tablero WEB*/
+.tabla{
+    position: absolute;
+    background: #E2E2E2;
+    right: 0;
+    height: 150%;
+    margin-right: 0.5em;
+    top: 100px;
+}
+.cabezera{
+    background: #7D7C7C;
+    height: 35px;
+    border-radius: 40px;
+    top: 15px;
+}
+.tablero{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.inputbusqueda{
+    position: relative;
+    left: 0;
+    top: 10px;
+}
+.estado{
+    position: absolute;
+    top: 33px;
+    left: 340px;
+}
+.inputFecha{
+    position: absolute;
+    top: 33px;
+    left: 840px;
+}
+.table{
+    margin-right: auto;
+    margin-left: auto;
+    top: 70px;
+}
+.arriba{
+    background: #7D7C7C;
+    height: 30px;
+}
+ th{
+    background: #980504;
+    margin-top: -1px;
+    text-align: center;
+    border: solid 1px black;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+td{
+    background: #FFF;
+    border: solid 1px black;
+    height: 60px;
+}
+table{
+    border-collapse: collapse;
+}
+.busqueda{
+    position: relative;
+}
+#nuevo-reporte{
+    background-color: #980504;
+    position: absolute;
+    right: 3em;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.icono-ver{
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    left: -4px;
+}
+.icono-editar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+}
+.icono-eliminar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+}
+#input-fecha{
+    width: 170px;
+}
+
+#input-empresa{
+    padding: 10px;
+    height: 50px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.inputFecha2{
+    position: absolute;
+    top: 64px;
+    left: 870px;
+}
+
+#input-folio{
+    width: 350px;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.raya{
+    height: 5px;
+    background: #7D7C7C;
+}
+
+.datos-usuario{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+}
+.lab-user{
+    position: relative;
+    text-align: right;
+}
+.icono-user-registro{
+    height: 200px;
+    position: relative;
+    top: -40px;
+    left: 395px;
+}
+.icono-jefe-registro{
+    height: 150px;
+    position: relative;
+    top: -40px;
+    left: 395px;
+}
+.datos{
+    text-align: center;
+}
+
+#numero-telefono{
+    left: 225px;
+    position: relative;
+}
+.icono-telefonoVer{
+    width: 27px;
+    height: 40px;
+    left: 220px;
+    position: relative;
+}
+
+.icono-correoVer{
+    width: 30px;
+    height: 20px;
+    top: -40px;
+    left: 660px;
+    position: relative;
+}
+
+#correo-usuario{
+    top: -38px;
+    left: 663px;
+    position: relative;
+}
+
+#guardar{
+    background-color: #980504;
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}
+.boton{
+    position: relative;
+    text-align: center;
+}
+.Reporte{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+#map{
+    height: 500px;
+}
+
+.input-direccion{
+    padding: 10px;
+    height: 100px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+    resize: none;
+}
+
+.rayaroja{
+    height: 5px;
+    background: #980504;
+    position: absolute;
+    top: 1030px;
+    left: 0;
+}
+
+.evidencias{
+    height: 450px;
+    background: #F8F8F8;
+    position: absolute;
+    top: 1035px;
+    left: 0;
+}
+
+.imagen1{
+    width: 182px;
+    height: 150px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    position: relative;
+    float: left;
+    text-align: center;
+    left: 300px;
+}
+.imagen2{
+    width: 182px;
+    height: 150px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    position: relative;
+    float: left;
+    text-align: center;
+    left: 420px;
+}
+.conten-img{
+    display: none;
+}
+.logo-img{
+    width: 160px;
+    height: 150px;
+    top: 1px;
+    left: -2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tabla2{
+    position: absolute;
+    background: #F8F8F8;
+    right: 0;
+    height: 150%;
+    margin-right: 0.5em;
+    top: 100px;
+}
+.label-brigada{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+}
+
+#guardar-punto{
+    background-color: #980504;
+    position: relative;
+    top: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}

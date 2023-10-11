@@ -1,0 +1,131 @@
+body {
+    background: #d6e2e3;
+}
+/* PAGINA INDEX*/
+.contenedor{
+    height: 540px;
+    background: #d6e2e3;
+	margin-left: auto; 
+	margin-right: auto;
+    top: 60px;
+    position: relative;
+
+}
+.img{
+    margin-left: auto; 
+    margin-right: auto;
+    top: 60px;
+}
+
+.imagen{
+    height: 540px;
+    background: #EBEBEB;
+    position: relative;
+    float: left;
+    
+}
+
+.login{
+    height: 540px;
+    background: #7E7D7D;
+    position: relative;
+    float: left;
+}
+
+#titulo{
+    height: 60px;
+    background: #980504;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.texto-iniciar{
+    text-align: center;
+    color: #FFF;
+    font-size:30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.form-group{
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 700;
+}
+
+#iniciar-sesion{
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto;
+    left: 130px;
+    border-radius: 40px;
+    top: 20px;
+}
+.label-check{
+    text-align: center; 
+    vertical-align: middle;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+#recuperar{
+    color: #980504;
+}
+.form-control{
+    border-radius: 40px;
+}
+
+#iniciar-sesion{
+    background-color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 700;
+}
+.icono-pass{
+    width: 20px;
+    position: absolute;
+    top: 40px;
+    left:26px;
+}
+.icono-correo{
+    width: 24px;
+    position: absolute;
+    top: 46px;
+    left:26px;
+}
+#pass{
+    padding-left: 40px;
+}
+#user{
+    padding-left: 40px;
+}
+.error{
+    background-color: #980504;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nedado{
+    background-color: #980504;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+ 

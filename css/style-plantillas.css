@@ -1,0 +1,243 @@
+
+.documento{
+    height: 1130px;
+    background: #FFF;
+    top: 50px;
+    position: relative;
+}
+.logo{
+    width: 680px;
+    height: 180px;
+}
+.logo-ayuntamiento{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+}
+.logo-canal{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: right;
+    
+}
+.filaroja{
+    height: 30px;
+    background: #980504;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+}
+.casilla-gris{
+    width: 120px;
+    height: 30px;
+    background: #D9D9D9;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+.text-casilla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+}
+.casilla-blanca{
+    width: 212px;
+    height: 30px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    align-items: center;
+    position: relative;
+    float: left;
+}
+#filagris{
+    width: 680px;
+    height: 30px;
+    background: #3B3838;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+}
+#descrip{
+    width: 680px;
+    height: 30px;
+    text-align: center;
+}
+#descripcion{
+    width: 680px;
+    height: 80px;
+}
+.rayaroja{
+    height: 5px;
+    background: #980504;
+    position: absolute;
+    left: 218px;
+    top: 1465px;
+}
+.evidencias{
+    height: 500px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 218px;
+    top: 1470px;
+}
+.imagen{
+    width: 122px;
+    height: 110px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+}
+.label-brigada{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.raya{
+    height: 5px;
+    background: #7D7C7C;
+}
+.imagen{
+    width: 170px;
+    height: 150px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    left: 25px;
+    position: relative;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+html,body{
+    overflow-x: hidden;
+    
+  }
+  .documento1{
+    height: 1180px;
+    background: #FFF;
+    top: 50px;
+    position: relative;
+}
+.document1{
+    height: 1370px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 218px;
+    top: 80px;
+}
+
+#Nombre{
+    width: 552px;
+    height: 30px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+#telefono{
+    width: 552px;
+    height: 30px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+#brigada{
+    width: 680px;
+    height: 30px;
+    background: #D9D9D9;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+#typebrigada{
+    width: 680px;
+    height: 80px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+.casilla-chica-blanca{
+    width: 82px;
+    height: 30px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+.casilla-chica-gris{
+    width: 80px;
+    height: 30px;
+    background: #D9D9D9;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+#observacion{
+    width: 680px;
+    height: 110px;
+}
+#cause{
+    width: 140px;
+    height: 30px;
+    background: #D9D9D9;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+#canal{
+    width: 532px;
+    height: 30px;
+    background: #FFF;
+    border: #707070 2px solid;
+    text-align: left;
+    position: relative;
+    float: left;
+}

@@ -1,0 +1,690 @@
+.contenedor{
+    position: absolute;
+    height: 100%;
+    background: #FFF;
+}
+
+.sidebar{
+    position: absolute;
+    background: #7D7C7C;
+    height: 270%;
+    margin-left: -1em;
+    left: 0;
+    padding-top: 50px;
+}
+.sidebar-usuario{
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    margin-left: 0.5em;
+}
+.icono-user{
+    height: 50px;
+    position: relative;
+    list-style: none;
+    margin-left: -1.5em;
+    top: -45px;
+    float: left;
+}
+.label-usuario-nav{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    position: relative;
+    left: -20px;
+    top: 3px;
+    font-weight: 500;
+}
+#label-user{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #FFF;
+    top: -45px;
+    left: 50px;
+    
+}
+#label-tipo{
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: #980504;
+    top: -5px;
+    left: 50px;
+    
+}
+ul{
+    height: 70px;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    list-style: none;
+    margin-left: 0.5em;
+}
+.primera-lista{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 200px;
+    margin-left: 0.5em;
+}
+.segunda-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.tercera-fila{
+    position: relative;
+    border-bottom: 2px solid rgba(243, 231, 231, 0.3);
+    height: 100px;
+    margin-left: 0.5em;
+}
+.label-tablero{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-report{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-puntos{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-jefe{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+.label-web{
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(230,230,230,.9);
+    text-align: left;
+    list-style: none;
+    left: 40px;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0.1em;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+#sidebar .label-menu:hover{
+    background: #444;
+    border-left: 5px solid #eee;
+}
+a.link-menu{
+    color: #FFF;
+}
+a.link-menu:hover{
+    text-decoration:none;
+}
+.icono-tablero{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -70px;
+    top: 10px;
+    cursor: pointer;
+}
+.icono-report{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    left: -120px;
+    top: 70px;
+    cursor: pointer;
+}
+.icono-puntos{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    left: -10px;
+    top: 95px;
+    cursor: pointer;
+}
+.icono-jefe{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+.icono-userweb{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    cursor: pointer;
+}
+.bloques{
+    position: absolute;
+    background: #FFF;
+    right: 0;
+    height: 200px;
+    margin-right: 0.5em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bloque-usuarios{
+    background: #08267B;
+    height: 100px;
+    position: relative;
+    left: -110px; 
+    top: -20px;
+    box-shadow: 10px 10px 3px #c6cacb;
+    
+}
+.bloque-reportes{
+    background: #556080;
+    height: 100px;
+    position: relative;
+    left: 70px;
+    top: -20px;
+    box-shadow: 10px 10px 3px #c6cacb;
+}
+.icono-usuario{
+    position: relative;
+    height: 70px;
+    left: -20px;
+    top: 10px;
+    
+}
+.icono-reportes{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    left: -20px;
+    top: 16px;
+    
+}
+.label-bloques{
+    color: #FFF;
+    position: relative;
+    left: 70px;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#label-usuarios{
+    color: #FFF;
+    position: relative;
+    left: 70px;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#label-reportes{
+    color: #FFF;
+    position: relative;
+    left: 70px;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.tabla{
+    position: absolute;
+    background: #E2E2E2;
+    right: 0;
+    height: 100%;
+    margin-right: 0.5em;
+    top: 250px;
+}
+.busqueda{
+    top: 10px;
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.input-busqueda{
+    position: relative;
+    float: left;
+}
+.filtro{
+    position: relative;
+    left: 180px;
+    top: -30px;
+}
+#nuevo-reporte{
+    background-color: #980504;
+    position: absolute;
+    right: 2em;
+    top: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.icono-nuevo-reporte{
+    width: 30px;
+    height: 30px;
+
+}
+
+.table{
+    margin-right: auto;
+    margin-left: auto;
+}
+.arriba{
+    background: #7D7C7C;
+    height: 30px;
+}
+ th{
+    background: #980504;
+    margin-top: -1px;
+    text-align: center;
+    border: solid 1px black;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+td{
+    background: #FFF;
+    border: solid 1px black;
+    height: 60px;
+}
+table{
+    border-collapse: collapse;
+}
+.icono-ver{
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+}
+.icono-editar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.icono-eliminar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;;
+}
+
+/* PAGINA CREAR REPORTE */
+
+.formulario{
+    height: 1055px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 215px;
+    top: 100px;
+}
+.cabezera{
+    background: #7D7C7C;
+    height: 35px;
+    border-radius: 40px;
+    top: 15px;
+}
+.tablero{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.Reporte{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    position: relative;
+    font-weight: 600;
+}
+.actividad{
+    color: #556080;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    left: 0;
+}
+.raya{
+    height: 5px;
+    background: #7D7C7C;
+}
+.label-brigada{
+    color: #980504;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+}
+
+.combo-brigada{
+    padding: 10px;
+    height: 50px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+   /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); para que betzaida sepa como hacer una sombra :v*/
+    
+}
+.descripcion{
+    height: 120px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.cuadros{
+    width: 80px;
+    height: 60px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.labelM{
+    color: #7D7C7C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.divAvance{
+    position: absolute;
+    
+}
+.divAncho{
+    position: absolute;
+    left: 150px;
+}
+.divArea{
+    position: absolute;
+    left: 300px;
+}
+.divPeso{
+    position: absolute;
+    left: 450px;
+}
+#numero-brigadas{
+    height: 50px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+}
+#numero-brigadas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.rayaroja{
+    height: 5px;
+    background: #980504;
+    position: absolute;
+    left: 215px;
+    top: 1185px;
+}
+.evidencias{
+    height: 500px;
+    background: #F8F8F8;
+    position: absolute;
+    left: 215px;
+    top: 1190px;
+}
+.imagen{
+    width: 182px;
+    height: 150px;
+    background: #FFF;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    position: relative;
+    float: left;
+}
+.conten-img{
+    display: none;
+    width: 182px;
+    height: 150px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.conten-vid{
+    display: none;
+}
+.logo-img{
+    width: 170px;
+    height: 170px;
+    top: -10px;
+    left: -9px;
+    position: relative;
+    cursor: pointer;
+}
+.evidencia-img{
+    width: 182px;
+    height: 150px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+    cursor: pointer;
+    position: relative;
+    left: -15px;
+}
+.exportar{
+    height: 100px;
+    background: #FFF;
+    position: absolute;
+    left: 215px;
+    top: 1700px;
+}
+.icono-pdf{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    left: 180px;
+    top: -30px;
+}
+.icono-excel{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    left: 150px;
+    top: -30px;
+}
+.label-exportar-pdf{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+.label-exportar-excel{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+#guardar-reporte{
+    background-color: #980504;
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1em;
+}
+.rojo{
+    background: #980504;
+    height: 5px;
+    right: 0;
+    margin-right: 0.3em;
+    position: absolute;
+    top: 100px;
+}
+.registro-form{
+    height: 1049px;
+    background: #F8F8F8;
+    position: absolute;
+    right: 0;
+    margin-right: 0.3em;
+    top: 105px;
+}
+.input-derecha{
+    height: 50px;
+    
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+}
+
+.icono-calendario{
+    width: 50px;
+    height: 50px;
+    background: #980504;
+    top: -351px;
+    left: 260px;
+    position: relative;
+    
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.calendario{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+}
+.icono-telefono{
+    width: 30px;
+    height: 50px;
+    background: #F8F8F8 ; /*color de elementos bloqueados*/
+    top: -226px;
+    position: relative;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+}
+#telefono{
+    padding-left: 41px;
+}
+.telefono{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+
+.configuracion li a{
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
+.configuracion{
+    display: none;
+    position: absolute;
+    background-color: #556080;
+    width: 200px;
+}
+
+.navbar .icono-config:hover .configuracion{
+    display: block;
+}
+#tipo-actividad{
+    display: none;
+}
+.select2-container .select2-selection {
+    height: 80px;
+    border-top: 1px solid #CCC5C5;
+    border-right: 1px solid #CCC5C5;
+    border-bottom: 1px solid #CCC5C5;
+    border-left: 1px solid #CCC5C5;
+    border-radius: 1em;
+} 
+#descripcion{
+    display: none;
+}
