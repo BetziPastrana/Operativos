@@ -2,10 +2,15 @@
 Sistema administrador para la gestión de puntos de basura de la coordinación de servicios públicos de acapulco 
 
 # Instalación
-Ejecuta la aplicación en modo de desarrollo.\
+
+1. Clona este repositorio en tu máquina local:
+   git clone https://github.com/
+
+2.Configure el archivo conexión.php para la conexión a la base de datos
+3.Ejecuta la aplicación en modo de desarrollo.
 Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
-La página se recargará cuando hagas cambios.\
+La página se recargará cuando hagas cambios.
 
 ### `Información adicional`
 Este proyecto es una aplicación web de un CRUD (Crear, Leer, Actualizar ) de puntos de basura. Permite realizar las siguientes operaciones:
