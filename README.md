@@ -4,7 +4,8 @@ Sistema administrador para la gestión de puntos de basura de la coordinación d
 # Instalación
 
 1. Clona este repositorio en tu máquina local:
-   git clone [https://github.com/](https://github.com/BetziPastrana/Operativos.git)
+2. 
+   git clone https://github.com/BetziPastrana/Operativos.git
 
 2.Configure el archivo conexión.php para la conexión a la base de datos
 3.Ejecuta la aplicación en modo de desarrollo.
